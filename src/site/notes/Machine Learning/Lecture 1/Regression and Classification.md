@@ -18,7 +18,7 @@
 
 1. **Residual Sum of Squares (RSS):**
     - RSS measures the difference between the predicted values and the actual values.
-    - Mathematical Formula: $$ RSS = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $$
+    - Mathematical Formula: $$RSS = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
 2. **Mean Squared Error (MSE):**
     
     - MSE calculates the average squared difference between the actual and predicted values.
