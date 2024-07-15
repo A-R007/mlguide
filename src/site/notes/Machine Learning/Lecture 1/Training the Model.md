@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/machine-learning/lecture-1/training-the-model/","dgPassFrontmatter":true}
 ---
 
+![Pasted image 20240715151041.png](/img/user/Pasted%20image%2020240715151041.png)
 ##### **Data Preparation**:
 
  The initial step is to prepare the data for training the machine learning model. This involves organizing the data, handling missing values, and ensuring that the data is in a suitable format for training.
