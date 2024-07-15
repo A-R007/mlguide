@@ -6,7 +6,7 @@
 
 1. **Definition:** Regression is a type of supervised learning algorithm used to predict continuous numerical values. It establishes a relationship between independent variables(x) and dependent variables(y) in the form of a mathematical model or function.
     
-2. **Example:** Predicting house prices based on features like size, number of bedrooms, and location.
+2. **Example:** Predicting house prices based on features like square feet, number of bedrooms, and location.
     
 3. **Mathematical Representation:** The basic form of a linear regression model with one independent variable is given by:
     
