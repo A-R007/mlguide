@@ -24,3 +24,10 @@
 2. **Predictions**: In supervised learning, the model predicts an output based on input and labeled examples. In unsupervised learning, the model attempts to uncover inherent structures within the data without a specific output target.
 3. **Tasks**: Supervised learning is commonly used for classification tasks and regression problems. Unsupervised learning is often applied to clustering, anomaly detection, and dimensionality reduction tasks.
 4. **Objective**: The purpose of supervised learning is to approximate a mapping function so well that it can make accurate predictions on unseen data. Unsupervised learning aims to capture the hidden patterns or underlying structure in the data.
+
+## View Next Topics:
+### [[Machine Learning/Lecture 1/Regression and Classification\|Regression and Classification]]:
+
+### [[Machine Learning/Lecture 1/Clustering\|Clustering]]:
+
+### [[Machine Learning/Lecture 1/Training the Model\|Training the Model]]:

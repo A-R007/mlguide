@@ -94,3 +94,9 @@ In these formulas:
 1. **Output Type:** Regression predicts continuous values, while classification predicts discrete class labels.
 2. **Evaluation:** Regression is evaluated using metrics like RMSE, MAE, while classification typically uses accuracy, precision, recall, etc.
 3. **Models:** Regression can use models like linear regression, polynomial regression, and neural networks. Classification can use models like logistic regression, decision trees, and SVMs.
+
+## View Next Topics:
+
+### [[Machine Learning/Lecture 1/Clustering\|Clustering]]:
+
+### [[Machine Learning/Lecture 1/Training the Model\|Training the Model]]:

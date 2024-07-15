@@ -29,3 +29,7 @@
     $c = 1 - \frac{H(K|C)}{H(K)}$
     
     where $H(K|C)$ is the conditional entropy of the cluster assignments given class labels, and $H(K)$ is the entropy of the cluster assignments.
+
+## View Next Topics:
+
+### [[Machine Learning/Lecture 1/Training the Model\|Training the Model]]:
