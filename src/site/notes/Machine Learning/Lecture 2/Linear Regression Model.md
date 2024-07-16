@@ -84,3 +84,14 @@
 ###### Solution
 - Remove 1 or more variables to avoid having collinearity in the model.
 ---
+## Pros and Cons of Linear Regression Model
+### Pros
+- Simple Model
+- Computationally Efficient
+- High interpretability
+- Able to handle missing data
+### Cons
+- Overly-simplistic
+- Many Assumptions
+- Assumed Linearity
+- Prone to Outliers
