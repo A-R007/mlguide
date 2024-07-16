@@ -23,6 +23,6 @@
 
 ![Pasted image 20240715150911.png](/img/user/Machine%20Learning/Assests/Pasted%20image%2020240715150911.png)
 ## View Next Topics
-### [Overfitting and Regularization](app://obsidian.md/Overfitting%20and%20Regularization)
+### [[Machine Learning/Lecture 2/Overfitting and Regularization\|Overfitting and Regularization]]
 
 ### [[Machine Learning/Lecture 2/Linear Regression Model\|Linear Regression Model]]
