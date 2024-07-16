@@ -71,4 +71,8 @@
 	- High interpretability
 	- Feature selection
 - Cons
-	- Higher variance than Ridge
+	- Higher variance than Ridge.
+
+## View Next Topics
+
+### [[Machine Learning/Lecture 2/Linear Regression Model\|Linear Regression Model]]

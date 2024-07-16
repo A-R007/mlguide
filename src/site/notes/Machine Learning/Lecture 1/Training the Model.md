@@ -22,3 +22,6 @@ Once the model is trained and the hyperparameters are optimized, the model is us
 ##### **Test Error Rate**:
 
 The final step involves evaluating the model's performance using the test error rate. This metric helps to assess how well the model generalizes to new, unseen data and provides insights into the model's accuracy and effectiveness.
+
+## Next Lecture:
+### [[Machine Learning/Lecture 2/Lecture 2_Index\|Lecture 2_Index]]

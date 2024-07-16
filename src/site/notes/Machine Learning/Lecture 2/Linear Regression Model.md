@@ -9,7 +9,7 @@
 ### Statistical Significant Effect
 - Statistical significant variables are unlikely to have occurred by chance, likely to be real (not due to a random chance).
 ## Linear Regression
-![linear regression.webp](/img/user/linear%20regression.webp)
+![linear regression.webp](/img/user/Machine%20Learning/Lecture%202/linear%20regression.webp)
 - Statistical model that helps model the impact of a unit change in a variable(independent) on the values of another target variable (dependent), when their relationship is linear in nature.
 - TYPES:
 	- 1 Independent Variable $\rightarrow$ Simple Linear Regression.
