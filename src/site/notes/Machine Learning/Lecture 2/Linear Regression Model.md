@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/machine-learning/lecture-2/linear-regression-model/","dgPassFrontmatter":true}
 ---
 
+## Terms
 ### Dependent Variable
 - Dependent variables are measured or tested and depend on independent variables.
 ### Independent Variable
@@ -43,3 +44,25 @@
 	- $\beta_0$ is the y-intercept of the regression line.
 	- $\beta_1$ is the slope of the regression line.
 	- $\epsilon$ is the error term (the difference between the observed and predicted values).
+## Linear Regression Assumptions (5)
+
+##### A1 - Linearity
+- model is linear in parameters (aka) relationship between dependent variables and independent variables is linear.
+- Check by plotting residuals to fitted values $\rightarrow$ if not linear $\rightarrow$ estimate will be biased and hence linearity assumption is violated.
+- Use more flexible models ($Eg$: tree based models).
+##### A2 - Random Sample 
+- all observations in the sample are randomly selected.
+- Check by plotting residuals then taking the mean of the residuals $\rightarrow$ if mean is not around 0 $\rightarrow$ OLS is biased and hence random sample assumption is violated.(Systematically over/under predicting the variable).
+##### A3 - Exogeneity
+- each independent variable is uncorrelated with the error terms.
+	- (aka) independent variables are not affected by error terms in the model
+	- (or) independent variables are assumed to be determined independent of errors in the model.
+- It is a key assumption $\rightarrow$ allows to interpret estimated coefficient $\rightarrow$ represent true causal effect of independent variables on dependent variables. variables when satisfying this assumption $\rightarrow$ exogeneous
+- else $\rightarrow$ endogenous.
+- Endogeneity $\rightarrow$ Independent variables corelating with error terms.
+- ***Causes*** -
+	###### - Omitted Variable Bias
+	- important vector of a dependent variable is not included in the model.
+	###### - Reverse Causality 
+	- dependent variable affects the independent variable.
+##### A4 - Homoscedasticity
