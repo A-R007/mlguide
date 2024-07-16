@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/machine-learning/lecture-2/linear-regression-model/","dgPassFrontmatter":true}
 ---
 
+---
 ## Terms
 ### Dependent Variable
 - Dependent variables are measured or tested and depend on independent variables.
@@ -9,6 +10,7 @@
 - Independent variables are manipulated and believed to have an effect on the dependent variable.
 ### Statistical Significant Effect
 - Statistical significant variables are unlikely to have occurred by chance, likely to be real (not due to a random chance).
+---
 ## Linear Regression
 ![linear regression.webp](/img/user/Machine%20Learning/Lecture%202/linear%20regression.webp)
 - Statistical model that helps model the impact of a unit change in a variable(independent) on the values of another target variable (dependent), when their relationship is linear in nature.
@@ -32,6 +34,7 @@
 	- $\beta_0$ is the y-intercept of the regression plane (or hyperplane).
 	- $\beta_1, \beta_2, \ldots, \beta_p$ are the coefficients (slopes) for each predictor.
 	- $\epsilon$ is the error term (the difference between the observed and predicted values).
+---
 ## Linear Regression Estimation
 ### Ordinary Least Squares (OLS)
 
@@ -44,12 +47,14 @@
 	- $\beta_0$ is the y-intercept of the regression line.
 	- $\beta_1$ is the slope of the regression line.
 	- $\epsilon$ is the error term (the difference between the observed and predicted values).
+----
 ## Linear Regression Assumptions (5)
 
 ##### A1 - Linearity
 - model is linear in parameters (aka) relationship between dependent variables and independent variables is linear.
-- Check by plotting residuals to fitted values $\rightarrow$ if not linear $\rightarrow$ estimate will be biased and hence linearity assumption is violated.
-- Use more flexible models ($Eg$: tree based models).
+- ###### Solution
+	- Check by plotting residuals to fitted values $\rightarrow$ if not linear $\rightarrow$ estimate will be biased and hence linearity assumption is violated.
+	- Use more flexible models ($Eg$: tree based models).
 ##### A2 - Random Sample 
 - all observations in the sample are randomly selected.
 - Check by plotting residuals then taking the mean of the residuals $\rightarrow$ if mean is not around 0 $\rightarrow$ OLS is biased and hence random sample assumption is violated.(Systematically over/under predicting the variable).
@@ -66,11 +71,16 @@
 	###### - Reverse Causality 
 	- dependent variable affects the independent variable.
 ##### A4 - Homoscedasticity/Homogeneity of Variance
-variance of all error terms in constant.
-Importance : to use statistical techniques and make inferences about parameters of the model. If errors not homoscedastic $\rightarrow$ results of techniques $\rightarrow$ misleading/invalid $\rightarrow$ heteroscedasticity.
-Heteroscedasticity $\rightarrow$ Variance of all error terms is ***NOT*** constant.
-	Coefficient (might be) $\rightarrow$ Accurate.
-	But, Corresponding standard error, Student T test, P value, Confidence intervals $\rightarrow$ Not Accurate.
-
+- variance of all error terms in constant.
+- Importance : to use statistical techniques and make inferences about parameters of the model. If errors not homoscedastic $\rightarrow$ results of techniques $\rightarrow$ misleading/invalid $\rightarrow$ heteroscedasticity.
+- Heteroscedasticity $\rightarrow$ Variance of all error terms is ***NOT*** constant.
+	- Coefficient (might be) $\rightarrow$ Accurate.
+	- But, Corresponding standard error, Student T test, P value, Confidence intervals $\rightarrow$ Not Accurate.
 ##### A5 - No Perfect MultiCollinearity
-there are no exact linear relationships between the independent variables.
+- there are no exact linear relationships between the independent variables.
+- Occurs due to high correlation between two or more independent variables $\rightarrow$ leads to highly unstable/unreliable estimate of the model.
+- Perfect MultiCollinearity $\rightarrow$ Independent variables $\rightarrow$ perfectly correlated with each other $\rightarrow$ one variable $\rightarrow$ perfectly predicted form the others.
+- Estimated Coefficient of model $\rightarrow$ infinite/undefined.
+###### Solution
+- Remove 1 or more variables to avoid having collinearity in the model.
+---

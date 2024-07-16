@@ -2,7 +2,9 @@
 {"dg-publish":true,"permalink":"/machine-learning/lecture-2/overfitting-and-regularization/","dgPassFrontmatter":true}
 ---
 
-### Overfitting
+---
+## Overfitting
+
 ![Pasted image 20240715161729.png](/img/user/Machine%20Learning/Lecture%202/Pasted%20image%2020240715161729.png)
 - Overfitting is when the model performs well in training but poorly on test data, leading to low training error and high test error.
 	- High variance
@@ -16,7 +18,9 @@
     - Introduce a complexity penalty to the model to prioritize simpler solutions and reduce overfitting.
     - Various regularization techniques exist to prevent overfitting by restricting the model's complexity.
 3. **Removing Features**:
-    - Simplify the data by removing irrelevant or complex features to reduce overfitting
+    - Simplify the data by removing irrelevant or complex features to reduce overfitting.
+---
+## Regularization
 ### Ridge Regression / L2 Regularization
 
 - Shrinkage technique that aims to solve Overfitting by shrinking some of the model's coefficients towards 0.
@@ -72,7 +76,7 @@
 	- Feature selection
 - Cons
 	- Higher variance than Ridge.
-
+---
 ## View Next Topics
 
 ### [[Machine Learning/Lecture 2/Linear Regression Model\|Linear Regression Model]]

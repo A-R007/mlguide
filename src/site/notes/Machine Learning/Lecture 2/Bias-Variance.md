@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/machine-learning/lecture-2/bias-variance/","dgPassFrontmatter":true}
 ---
 
+---
 #### Bias
 - Bias is the expectation of the difference between the estimate and the true value.
 - Bias values of complex models tend to be lesser than simpler models.
@@ -22,6 +23,7 @@
 	- ML model's flexibility has direct impact on its Variance & Bias.
 
 ![Pasted image 20240715150911.png](/img/user/Machine%20Learning/Assests/Pasted%20image%2020240715150911.png)
+---
 ## View Next Topics
 ### [[Machine Learning/Lecture 2/Overfitting and Regularization\|Overfitting and Regularization]]
 

@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-home":true,"permalink":"/machine-learning/basics-for-ml/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
+---
 ### Math:
 
 1. **Linear Algebra**:
@@ -55,7 +56,7 @@ These mathematical skills are crucial for a solid foundation in machine learning
 2. **Data Science Fundamentals**: Understanding of fundamental concepts in data science, including data visualization, feature engineering, and model training and testing.
 
 3. **Deep Learning and Generative AI**: Knowledge of deep learning concepts, neural network architectures, such as RNNs, LSTMs, CNNs, and generative AI models like GPTs, Transformers, and VAEs.
-
+---
 # LECTURES:
 
 ### [[Machine Learning/Lecture 1/Lecture 1_Index\|Lecture 1_Index]]
