@@ -3,4 +3,5 @@
 ---
 
 ### [[Machine Learning/Lecture 2/Bias-Variance\|Bias-Variance]]
-### [[Overfitting and Regularization\|Overfitting and Regularization]]
+### [[Machine Learning/Lecture 2/Overfitting and Regularization\|Overfitting and Regularization]]
+### [[Machine Learning/Lecture 2/Linear Regression Model\|Linear Regression Model]]

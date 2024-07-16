@@ -21,4 +21,4 @@
 	- Negative correlation between variance and bias of model.
 	- ML model's flexibility has direct impact on its Variance & Bias.
 
-![Pasted image 20240715150911.png](/img/user/Pasted%20image%2020240715150911.png)
+![Pasted image 20240715150911.png](/img/user/Machine%20Learning/Assests/Pasted%20image%2020240715150911.png)
