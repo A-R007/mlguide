@@ -65,4 +65,12 @@
 	- important vector of a dependent variable is not included in the model.
 	###### - Reverse Causality 
 	- dependent variable affects the independent variable.
-##### A4 - Homoscedasticity
+##### A4 - Homoscedasticity/Homogeneity of Variance
+variance of all error terms in constant.
+Importance : to use statistical techniques and make inferences about parameters of the model. If errors not homoscedastic $\rightarrow$ results of techniques $\rightarrow$ misleading/invalid $\rightarrow$ heteroscedasticity.
+Heteroscedasticity $\rightarrow$ Variance of all error terms is ***NOT*** constant.
+	Coefficient (might be) $\rightarrow$ Accurate.
+	But, Corresponding standard error, Student T test, P value, Confidence intervals $\rightarrow$ Not Accurate.
+
+##### A5 - No Perfect MultiCollinearity
+there are no exact linear relationships between the independent variables.
