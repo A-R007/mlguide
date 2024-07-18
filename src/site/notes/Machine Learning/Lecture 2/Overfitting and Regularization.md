@@ -24,51 +24,52 @@
 ### Ridge Regression / L2 Regularization
 
 - Shrinkage technique that aims to solve Overfitting by shrinking some of the model's coefficients towards 0.
-	- $beta_{\text{ridge}} = (X^T X + \lambda I)^{-1} X^T y$
-	- Where: 
-		- $X$ is the matrix of predictor variables. 
-		- $y$ is the vector of observed values. 
-		- $lambda$ is the regularization parameter.
-		- $I$ is the identity matrix.
-		- $beta_{\text{ridge}}$ represents the ridge regression coefficients.
+# $\beta_{\text{ridge}} = (X^T X + \lambda I)^{-1} X^T y$
+Where: 
+- $X$ is the matrix of predictor variables. 
+- $y$ is the vector of observed values. 
+- $\lambda$ is the regularization parameter.
+- $I$ is the identity matrix.
+- $\beta_{\text{ridge}}$ represents the ridge regression coefficients.
+
 - Pros:
 	- Solves Overfitting
 	- Lower model variance
 	- Computationally cheap
 - Cons
-	- low interpretability
+	- Low interpretability
 
 ### Lasso Regression / L1 Regularization
 
 - Shrinkage technique that aims to solve Overfitting by shrinking some of the model's coefficients towards 0 and setting some to 0 itself.
 	- Lasso Regression Formula
 	- The objective function for Lasso regression is given by
-	- $\hat{\beta} = \arg\min_{\beta} \left\{ \frac{1}{2n} \sum_{i=1}^n \left( y_i - \sum_{j=1}^p x_{ij} \beta_j \right)^2 + \lambda \sum_{j=1}^p |\beta_j| \right\}$
+## $\hat{\beta} = \arg\min_{\beta} \left\{ \frac{1}{2n} \sum_{i=1}^n \left( y_i - \sum_{j=1}^p x_{ij} \beta_j \right)^2 + \lambda \sum_{j=1}^p |\beta_j| \right\}$
 
 - **Objective Function:**
 
 	- The Lasso regression aims to minimize the following objective function:
-	- $J(\beta) = \frac{1}{2n} \sum_{i=1}^n \left( y_i - \sum_{j=1}^p x_{ij} \beta_j \right)^2 + \lambda \sum_{j=1}^p |\beta_j|$
+## $J(\beta) = \frac{1}{2n} \sum_{i=1}^n \left( y_i - \sum_{j=1}^p x_{ij} \beta_j \right)^2 + \lambda \sum_{j=1}^p |\beta_j|$
 
 - **Residual Sum of Squares:**
 
 	- The first term is the residual sum of squares, which measures the difference between the observed and predicted values
-	- $\frac{1}{2n} \sum_{i=1}^n \left( y_i - \sum_{j=1}^p x_{ij} \beta_j \right)^2$
+## $\frac{1}{2n} \sum_{i=1}^n \left( y_i - \sum_{j=1}^p x_{ij} \beta_j \right)^2$
 
 - **Regularization Term:**
 
 	- The second term is the L1 regularization term, which is the sum of the absolute values of the coefficients
-	- $\lambda \sum_{j=1}^p |\beta_j|$
+## $\lambda \sum_{j=1}^p |\beta_j|$
    
 - **Combine Terms:**
 
 	- The Lasso regression combines these two terms to form the objective function that needs to be minimized
-	- $J(\beta) = \frac{1}{2n} \sum_{i=1}^n \left( y_i - \sum_{j=1}^p x_{ij} \beta_j \right)^2 + \lambda \sum_{j=1}^p |\beta_j|$
+## $J(\beta) = \frac{1}{2n} \sum_{i=1}^n \left( y_i - \sum_{j=1}^p x_{ij} \beta_j \right)^2 + \lambda \sum_{j=1}^p |\beta_j|$
 
 - **Optimization Problem:**
 
 	- The goal is to find the coefficients \(\beta\) that minimize the objective function \(J(\beta)\):
-	- $\hat{\beta} = \arg\min_{\beta} J(\beta)$
+## $\hat{\beta} = \arg\min_{\beta} J(\beta)$
 - Pros
 	- Solves Overfitting
 	- Easy to understand

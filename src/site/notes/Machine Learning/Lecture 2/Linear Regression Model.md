@@ -20,7 +20,10 @@
 
 ### Simple Linear Regression
 
-- The formula for simple linear regression is: $y = \beta_0 + \beta_1 x + \epsilon$ ,Where:
+- The formula for simple linear regression is:
+## $y = \beta_0 + \beta_1 x + \epsilon$
+
+- Where:
 	- $y$ is the dependent variable (the outcome you are trying to predict).
 	- $x$ is the independent variable (the predictor).
 	- $\beta_0$ is the y-intercept of the regression line.
@@ -28,7 +31,10 @@
 	- $\epsilon$ is the error term (the difference between the observed and predicted values).
 ### Multiple Regression Formula
 
-- The formula for multiple regression is: $y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_p x_p + \epsilon$ Where:
+- The formula for multiple regression is: 
+## $y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_p x_p + \epsilon$
+
+Where:
 	- $y$ is the dependent variable (the outcome you are trying to predict).
 	- $x_1, x_2, \ldots, x_p$ are the independent variables (the predictors).
 	- $\beta_0$ is the y-intercept of the regression plane (or hyperplane).
@@ -41,7 +47,9 @@
 - Estimation technique used for estimating unknown parameters in a linear regression model to predict the response/dependent variable.
 - OLS aims to find the best fitting regression line by minimizing the sum of squared errors.
 - We estimate the error term as residuals and minimize the sum of squares of residuals.
-- The OLS regression model for simple linear regression is given by:$y = \beta_0 + \beta_1 x + \epsilon$, where:
+- The OLS regression model for simple linear regression is given by:
+## $y = \beta_0 + \beta_1 x + \epsilon$
+- where:
 	- $y$ is the dependent variable (the outcome you are trying to predict).
 	- $x$ is the independent variable (the predictor).
 	- $\beta_0$ is the y-intercept of the regression line.
@@ -95,3 +103,4 @@
 - Many Assumptions
 - Assumed Linearity
 - Prone to Outliers
+----
