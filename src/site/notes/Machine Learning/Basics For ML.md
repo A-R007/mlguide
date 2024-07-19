@@ -61,3 +61,5 @@ These mathematical skills are crucial for a solid foundation in machine learning
 
 ### [[Machine Learning/Lecture 1/Lecture 1_Index\|Lecture 1_Index]]
 ### [[Machine Learning/Lecture 2/Lecture 2_Index\|Lecture 2_Index]]
+
+### [[Machine Learning/Lecture 3/Lecture 3_Index\|Lecture 3_Index]]

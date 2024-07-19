@@ -104,3 +104,5 @@ Where:
 - Assumed Linearity
 - Prone to Outliers
 ----
+## Next Lecture:
+### [[Machine Learning/Lecture 3/Lecture 3_Index\|Lecture 3_Index]]
