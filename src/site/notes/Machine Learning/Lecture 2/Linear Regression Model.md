@@ -40,6 +40,7 @@ Where:
 	- $\beta_0$ is the y-intercept of the regression plane (or hyperplane).
 	- $\beta_1, \beta_2, \ldots, \beta_p$ are the coefficients (slopes) for each predictor.
 	- $\epsilon$ is the error term (the difference between the observed and predicted values).
+
 ---
 ## Linear Regression Estimation
 ### Ordinary Least Squares (OLS)
