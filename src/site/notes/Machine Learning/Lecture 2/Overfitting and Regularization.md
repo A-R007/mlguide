@@ -68,7 +68,7 @@ Where:
 
 - **Optimization Problem:**
 
-	- The goal is to find the coefficients \(\beta\) that minimize the objective function \(J(\beta)\):
+	- The goal is to find the coefficients $\beta$ that minimize the objective function $J(\beta)$
 ## $\hat{\beta} = \arg\min_{\beta} J(\beta)$
 - Pros
 	- Solves Overfitting
